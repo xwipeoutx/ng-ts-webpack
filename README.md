@@ -34,6 +34,7 @@ npm build
 
 * Templates should be able to work without `require`, thus removing `globals.d.ts`
 * Should be no warnings for `npm run build`
+* Tree-shaking
 
 ## How-To
 
