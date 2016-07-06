@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "noImplicitAny": false,
+    "removeComments": false,
+    "sourceMap": true,
+    "module": "commonjs",
+    "experimentalDecorators": true,
+    "outDir": "out"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "version": "1.8.10"
+}

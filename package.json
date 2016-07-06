@@ -1,0 +1,31 @@
+{
+  "name": "ng-ts-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config build/webpack/webpack.dev.js --watch --NODE_ENV=dev",
+    "build": "webpack --config build/webpack/webpack.build.js --NODE_ENV=production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.7"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "browser-sync-webpack-plugin": "^1.1.0",
+    "compression-webpack-plugin": "^0.3.1",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.22.0",
+    "node-sass": "^3.8.0",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1"
+  }
+}
