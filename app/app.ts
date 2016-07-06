@@ -1,5 +1,5 @@
+import * as angular from "angular"
 import HomeModule from "./home/home"
-import "angular";
 import "./app.scss";
 
 var AppModule = angular.module("app", [
